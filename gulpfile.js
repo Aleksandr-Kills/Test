@@ -1,6 +1,5 @@
 var gulp         = require('gulp'), // Подключаем Gulp
-    scss         = require('gulp-scss'), //Подключаем Scss пакет
-    browserSync  = require('browser-sync'), // Подключаем Browser Sync
+    sass         = require('gulp-sass'), //Подключаем Sass пакет
     concat       = require('gulp-concat'), // Подключаем gulp-concat (для конкатенации файлов)
     uglify       = require('gulp-uglifyjs'), // Подключаем gulp-uglifyjs (для сжатия JS)
     cssnano      = require('gulp-cssnano'), // Подключаем пакет для минификации CSS
@@ -12,12 +11,11 @@ var gulp         = require('gulp'), // Подключаем Gulp
     autoprefixer = require('gulp-autoprefixer'); // Подключаем библиотеку для автоматического добавления префиксов
 
 
-gulp.task('scss', function(){ // Создаем таск "scss"
-    return gulp.src('app/scss/**/*.scss') // Берем источник
-        .pipe(scss()) // Преобразуем Sass в CSS посредством gulp-scss
+gulp.task('sass', function(){ // Создаем таск "sass"
+    return gulp.src('app/sass/**/*.scss') // Берем источник
+        .pipe(sass()) // Преобразуем Scss в CSS посредством gulp-sass
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
         .pipe(gulp.dest('app/css')) // Выгружаем результата в папку app/css
-        .pipe(browserSync.reload({stream: true}))
 });
 
 gulp.task('scripts', function() {
@@ -30,7 +28,7 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('app/js')); // Выгружаем в папку app/js
 });
 
-gulp.task('css-libs',['scss'], function() {
+gulp.task('css-libs',['sass'], function() {
     return gulp.src('app/css/libs.css')  // Выбираем файл для минификации
         .pipe(cssnano()) // Сжимаем
         .pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
@@ -57,12 +55,12 @@ gulp.task('img', function() {
 });
 
 gulp.task('watch',['css-libs', 'scripts'], function() {  // Вотч, слежение за изменениями
-    gulp.watch('app/sass/**/*.scss', ['scss']);  // Наблюдение за sass файлами
+    gulp.watch('app/sass/**/*.scss', ['sass']);  // Наблюдение за sass файлами
     gulp.watch('app/*.html'); // Наблюдение за другими файлами
     gulp.watch('app/js**/*.js');
 });
 
-gulp.task('build', ['clean','img', 'scss', 'scripts'], function() {
+gulp.task('build', ['clean','img', 'sass', 'scripts'], function() {
     var buildCss = gulp.src([  // Переносим CSS стили в продакшен
        'app/css/main.css',
        'app/css/libs.min.css'
@@ -77,7 +75,6 @@ gulp.task('build', ['clean','img', 'scss', 'scripts'], function() {
 
     var buildHtml = gulp.src('app/*html') // Переносим HTML в продакшен
         .pipe(gulp.dest('dist'));
-
 });
 
 // gulp.task('default', ['watch']); - можно использовать чтобы писать просто Gulp,без добавки Watch
