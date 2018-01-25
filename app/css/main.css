@@ -41,6 +41,19 @@ body {
     margin-top: 8px;
     text-align: center; }
     #header .part-one .navigation li {
-      display: inline-block; }
+      padding-left: 3px;
+      display: inline-block;
+      font: 0.625em "Arial"; }
+    #header .part-one .navigation li:first-child {
+      padding-left: 0; }
     #header .part-one .navigation a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #707070;
+      padding: 4px 16px;
+      border: 1px solid rgba(4, 82, 121, 0);
+      -webkit-border-radius: 1px;
+              border-radius: 1px; }
+    #header .part-one .navigation a:hover {
+      border: 1px solid #045279;
+      color: #fff;
+      background-color: #076e9f; }
