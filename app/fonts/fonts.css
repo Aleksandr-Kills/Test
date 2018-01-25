@@ -1,4 +1,4 @@
-/* Regular */
+/* Italic */
 @font-face {
     font-family: 'League Gothic';
     src: url('leaguegothic-italic-webfont.eot');
@@ -11,7 +11,7 @@
 
 }
 
-/* Italic */
+/* Regular */
 @font-face {
     font-family: 'League Gothic';
     src: url('leaguegothic-regular-webfont.eot');

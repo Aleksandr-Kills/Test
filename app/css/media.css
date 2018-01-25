@@ -13,11 +13,11 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 #header .part-one .logo {
-    margin-top: 35px;
+    margin-top: 20px;
     text-align: left;
 }
     #header .part-one .logo h1 {
-        left: 0; /* margin-right: 0; */
+        left: 0;
         font-size: 1.53em;
     }
     #header .part-one .social {

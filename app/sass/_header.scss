@@ -4,14 +4,14 @@ body {
 /* header */
 /* part-one */
 #header .part-one {
-  min-height: 122px;
+  min-height: 91px;
   border-bottom: 2px solid #22aaec;
   .logo {
     margin-top: 10px;
     text-align: right;
     h1 {
       position:relative;
-      left:101px; // margin-right: -101px;
+      left:101px;
       font: 2em "League Gothic", sans-serif;
       color: #076e9f;
       span {
@@ -46,6 +46,7 @@ body {
     }
   }
   .navigation {
+    margin-top: 8px;
     text-align: center;
     li {
       display: inline-block;

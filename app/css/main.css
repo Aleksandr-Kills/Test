@@ -4,7 +4,7 @@ body {
 /* header */
 /* part-one */
 #header .part-one {
-  min-height: 122px;
+  min-height: 91px;
   border-bottom: 2px solid #22aaec; }
   #header .part-one .logo {
     margin-top: 10px;
@@ -38,6 +38,7 @@ body {
       -o-transition: .6s;
       transition: .6s; }
   #header .part-one .navigation {
+    margin-top: 8px;
     text-align: center; }
     #header .part-one .navigation li {
       display: inline-block; }
