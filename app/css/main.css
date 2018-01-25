@@ -1,0 +1,45 @@
+body {
+  background-color: #fff; }
+
+/* header */
+/* part-one */
+#header .part-one {
+  min-height: 122px;
+  border-bottom: 2px solid #22aaec; }
+  #header .part-one .logo {
+    margin-top: 10px;
+    text-align: right; }
+    #header .part-one .logo h1 {
+      position: relative;
+      left: 101px;
+      font: 2em "League Gothic", sans-serif;
+      color: #076e9f; }
+      #header .part-one .logo h1 span {
+        color: #22aaec; }
+  #header .part-one .social {
+    margin: 15px 15px 0 0;
+    text-align: right; }
+    #header .part-one .social p {
+      display: inline-block;
+      padding-left: 3px; }
+      #header .part-one .social p a {
+        text-decoration: none; }
+    #header .part-one .social p:first-child {
+      padding-left: 0; }
+    #header .part-one .social .e {
+      position: relative;
+      top: 1px; }
+    #header .part-one .social .tw {
+      position: relative;
+      bottom: 1px; }
+    #header .part-one .social p:hover {
+      opacity: 0.6;
+      -webkit-transition: .6s;
+      -o-transition: .6s;
+      transition: .6s; }
+  #header .part-one .navigation {
+    text-align: center; }
+    #header .part-one .navigation li {
+      display: inline-block; }
+    #header .part-one .navigation a {
+      text-decoration: none; }

@@ -12,7 +12,18 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
+#header .part-one .logo {
+    margin-top: 35px;
+    text-align: left;
+}
+    #header .part-one .logo h1 {
+        left: 0; /* margin-right: 0; */
+        font-size: 1.53em;
+    }
+    #header .part-one .social {
+        margin: 0;
+        text-align: left;
+    }
 }
 
 /* Extra Small Devices, Phones */
