@@ -36,3 +36,9 @@
     color:#fff;
     font-weight: bold;
 }
+/* hack for moz*/
+@-moz-document url-prefix() {
+    #header .burger-menu .nav li {
+        padding: 3px 0 3px 0;
+    }
+}
