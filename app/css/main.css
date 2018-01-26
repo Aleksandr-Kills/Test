@@ -70,3 +70,35 @@ body {
       background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
       color: #fff;
       background-color: #076e9f; }
+
+/* part-two */
+.part-two {
+  min-height: 433px;
+  border-bottom: 2px solid #22aaec;
+  background: url("../img/bg_header.jpg") no-repeat center;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  .part-two .row {
+    margin-top: 91px; }
+    .part-two .row .h1,
+    .part-two .row .p {
+      margin: 0 auto;
+      text-align: center;
+      color: #076e9f;
+      background-color: rgba(255, 255, 255, 0.8); }
+    .part-two .row .h1 {
+      max-width: 284px;
+      min-height: 79px;
+      font: 3.75em "League Gothic", sans-serif; }
+      .part-two .row .h1 h1 {
+        padding-top: 6px; }
+    .part-two .row .p {
+      position: relative;
+      top: 19px;
+      min-height: 47px;
+      max-width: 776px;
+      font: 1.875em "League Gothic", sans-serif; }
+      .part-two .row .p p {
+        padding-top: 7px; }
+    .part-two .row span {
+      color: #22aaec; }

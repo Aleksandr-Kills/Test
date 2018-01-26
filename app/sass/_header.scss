@@ -76,3 +76,41 @@ body {
     }
   }
 }
+/* part-two */
+.part-two {
+  min-height: 433px;
+  border-bottom: 2px solid #22aaec;
+  background: url("../img/bg_header.jpg") no-repeat center;
+  background-size: cover;
+  .row {
+    margin-top: 91px;
+    .h1,
+    .p {
+      margin: 0 auto;
+      text-align: center;
+      color: #076e9f;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    .h1 {
+      max-width: 284px;
+      min-height:79px;
+      font: 3.75em "League Gothic", sans-serif;
+      h1 {
+        padding-top:6px;
+      }
+    }
+    .p {
+      position:relative;
+      top: 19px;
+      min-height:47px;
+      max-width: 776px;
+      font: 1.875em "League Gothic", sans-serif;
+      p {
+        padding-top: 7px;
+      }
+    }
+    span {
+      color: #22aaec;
+    }
+  }
+}
