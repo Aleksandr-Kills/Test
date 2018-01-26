@@ -82,7 +82,7 @@ body {
   border-bottom: 2px solid #22aaec;
   background: url("../img/bg_header.jpg") no-repeat center;
   background-size: cover;
-  .row {
+  .one {
     margin-top: 91px;
     .h1,
     .p {
@@ -112,5 +112,10 @@ body {
     span {
       color: #22aaec;
     }
+  }
+  .comments {
+    margin-top: 94px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
