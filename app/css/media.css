@@ -41,7 +41,15 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .part-two .row .h1 {
+        max-width: 220px;
+        font-size: 3em;
+        min-height: inherit;
+    }
+    .part-two .row .p {
+        font-size: 1.7em;
+        min-height: inherit;
+    }
 }
 
 /* Custom, iPhone Retina */
