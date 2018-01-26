@@ -19,10 +19,23 @@
     #header .part-one .logo h1 {
         left: 0;
         font-size: 1.53em;
+        z-index: 0;
     }
     #header .part-one .social {
         margin: 0;
         text-align: left;
+    }
+    #header .navigation {
+        display: none;
+    }
+    #header .burger-menu .nav{
+        display: none;
+    }
+    #header .menu.col-xs-12 {
+        padding: 0;
+    }
+    #header .part-one {
+        max-height: 91px;
     }
 }
 
@@ -57,7 +70,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+    #header .burger-menu {
+        display: none;
+    }
 }
 
 /* Medium Devices, Desktops */

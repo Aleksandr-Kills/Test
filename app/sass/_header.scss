@@ -14,6 +14,7 @@ body {
       left:101px;
       font: 2em "League Gothic", sans-serif;
       color: #076e9f;
+      z-index: 1;
       span {
         color: #22aaec;
       }
@@ -22,6 +23,8 @@ body {
   .social {
     margin: 15px 15px 0 0;
     text-align: right;
+    user-select: none;
+    z-index: 0;
     p {
       display: inline-block;
       padding-left: 3px;

@@ -13,12 +13,18 @@ body {
       position: relative;
       left: 101px;
       font: 2em "League Gothic", sans-serif;
-      color: #076e9f; }
+      color: #076e9f;
+      z-index: 1; }
       #header .part-one .logo h1 span {
         color: #22aaec; }
   #header .part-one .social {
     margin: 15px 15px 0 0;
-    text-align: right; }
+    text-align: right;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    z-index: 0; }
     #header .part-one .social p {
       display: inline-block;
       padding-left: 3px; }
