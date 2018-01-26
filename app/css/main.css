@@ -106,3 +106,24 @@ body {
     margin-top: 94px;
     height: 120px;
     background-color: rgba(0, 0, 0, 0.5); }
+    .part-two .comments .block {
+      position: relative;
+      top: 25px;
+      margin: 0 auto;
+      text-align: center;
+      width: 154px;
+      height: 69px;
+      background-color: rgba(255, 255, 255, 0.9); }
+      .part-two .comments .block .photo {
+        text-align: left;
+        max-width: 70px;
+        height: 71px; }
+      .part-two .comments .block .message {
+        font: italic 10px "Arial";
+        text-align: center; }
+    .part-two .comments .two {
+      right: 12px; }
+    .part-two .comments .three {
+      right: 23px; }
+    .part-two .comments .four {
+      right: 34px; }

@@ -115,7 +115,32 @@ body {
   }
   .comments {
     margin-top: 94px;
-    height: 120px;
+    min-height: 120px;
     background-color: rgba(0, 0, 0, 0.5);
+    .block {
+      position: relative;
+      top: 25px;
+      margin: 0 auto;
+      text-align: center;
+      width: 154px;
+      height: 69px;
+      background-color: rgba(255, 255, 255, 0.9);
+      .photo {
+        text-align: left;
+      }
+      .message {
+        font: italic 10px "Arial";
+        text-align: center;
+      }
+    }
+    .two {
+      right:12px;
+    }
+    .three {
+      right: 23px;
+    }
+    .four {
+      right: 34px;
+    }
   }
 }
