@@ -55,6 +55,15 @@
     #header .part-two .comments {
         height:203px;
     }
+    #header .part-two .comments .block {
+        width: 85%;
+    }
+    #header .part-two .comments .message {
+        margin-left:65px;
+    }
+    #header .part-two .comments .three .name {
+        padding-left:18px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -68,8 +77,6 @@
         font-size: 1.7em;
         min-height: inherit;
     }
-}
-@media only screen and (max-width : 400px) {
     #header .part-two .comments .col-xs-6 {
         width:100%;
     }
@@ -82,13 +89,13 @@
         height:355px;
     }
     #header .part-two .comments .block {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    #header .part-two .comments .block {
         width: 85%;
-    }
-    #header .part-two .comments .message {
-        margin-left:65px;
-    }
-    #header .part-two .comments .three .name {
-        padding-left:18px;
     }
 }
 
