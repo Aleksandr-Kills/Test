@@ -12,10 +12,10 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-#header .part-one .logo {
-    margin-top: 20px;
-    text-align: left;
-}
+    #header .part-one .logo {
+        margin-top: 20px;
+        text-align: left;
+    }
     #header .part-one .logo h1 {
         left: 0;
         font-size: 1.53em;
@@ -37,18 +37,58 @@
     #header .part-one {
         max-height: 91px;
     }
+    #header .part-two .comments .one {
+        left: 18px;
+    }
+    #header .part-two .comments .two {
+        left: 17px;
+    }
+    #header .part-two .comments .three {
+        left: 18px;
+        margin-top:15px;
+    }
+    #header .part-two .comments .four {
+        margin-top:15px;
+        right: 0;
+        left:17px;
+    }
+    #header .part-two .comments {
+        height:203px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    .part-two .row .h1 {
+    #header .part-two .row .h1 {
         max-width: 220px;
         font-size: 3em;
         min-height: inherit;
     }
-    .part-two .row .p {
+    #header .part-two .row .p {
         font-size: 1.7em;
         min-height: inherit;
+    }
+}
+@media only screen and (max-width : 400px) {
+    #header .part-two .comments .col-xs-6 {
+        width:100%;
+    }
+    #header .part-two .comments .two,
+    #header .part-two .comments .three,
+    #header .part-two .comments .four {
+        margin-top: 10px;
+    }
+    #header .part-two .comments {
+        height:355px;
+    }
+    #header .part-two .comments .block {
+        width: 85%;
+    }
+    #header .part-two .comments .message {
+        margin-left:65px;
+    }
+    #header .part-two .comments .three .name {
+        padding-left:18px;
     }
 }
 
@@ -58,6 +98,21 @@
 }
 
 @media only screen and (min-width : 768px) and (max-width: 991px) {
+    #header .part-two .comments .block {
+        width: 145px;
+    }
+    #header .part-two .comments .one,
+    #header .part-two .comments .two,
+    #header .part-two .comments .three {
+        left: 18px;
+    }
+    #header .part-two .comments .four {
+        right: 0;
+        left:18px;
+    }
+    #header .part-two .comments .block .message {
+        margin-left: 45px;
+    }
 
 }
 
