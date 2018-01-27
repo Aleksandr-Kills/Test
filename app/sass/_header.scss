@@ -115,7 +115,7 @@ body {
   }
   .comments {
     margin-top: 94px;
-    min-height: 120px;
+    height: 120px;
     background-color: rgba(0, 0, 0, 0.5);
     .block {
       position: relative;
@@ -126,21 +126,53 @@ body {
       height: 69px;
       background-color: rgba(255, 255, 255, 0.9);
       .photo {
+        position:relative;
+        right: 36px;
         text-align: left;
+        img {
+          border-radius: 50px;
+          transition: .3s;
+        }
+        img:hover {
+          box-shadow: 0 0 0 3px rgba(34, 170, 236, 1);
+        }
       }
       .message {
-        font: italic 10px "Arial";
-        text-align: center;
+        margin-top: -67px;
+        margin-left:51px;
+        text-align: left;
+        line-height:13px !important;
+        font: italic 0.562em "Arial";
+        color: #515151;
+      }
+      .name {
+        padding-top: 5px;
+        font: 0.562em "Arial";
+        color: #828282;
+      }
+    }
+    .one {
+      .name {
+        padding-left: 33px;
       }
     }
     .two {
       right:12px;
+      .name {
+        padding-left: 6px;
+      }
     }
     .three {
       right: 23px;
+      .name {
+        padding-left: 20px;
+      }
     }
     .four {
       right: 34px;
+      .name {
+        padding-left: 22px;
+      }
     }
   }
 }

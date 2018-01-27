@@ -115,15 +115,40 @@ body {
       height: 69px;
       background-color: rgba(255, 255, 255, 0.9); }
       .part-two .comments .block .photo {
-        text-align: left;
-        max-width: 70px;
-        height: 71px; }
+        position: relative;
+        right: 36px;
+        text-align: left; }
+        .part-two .comments .block .photo img {
+          -webkit-border-radius: 50px;
+                  border-radius: 50px;
+          -webkit-transition: .3s;
+          -o-transition: .3s;
+          transition: .3s; }
+        .part-two .comments .block .photo img:hover {
+          -webkit-box-shadow: 0 0 0 3px #22aaec;
+                  box-shadow: 0 0 0 3px #22aaec; }
       .part-two .comments .block .message {
-        font: italic 10px "Arial";
-        text-align: center; }
+        margin-top: -67px;
+        margin-left: 51px;
+        text-align: left;
+        line-height: 13px !important;
+        font: italic 0.562em "Arial";
+        color: #515151; }
+      .part-two .comments .block .name {
+        padding-top: 5px;
+        font: 0.562em "Arial";
+        color: #828282; }
+    .part-two .comments .one .name {
+      padding-left: 33px; }
     .part-two .comments .two {
       right: 12px; }
+      .part-two .comments .two .name {
+        padding-left: 6px; }
     .part-two .comments .three {
       right: 23px; }
+      .part-two .comments .three .name {
+        padding-left: 20px; }
     .part-two .comments .four {
       right: 34px; }
+      .part-two .comments .four .name {
+        padding-left: 22px; }
