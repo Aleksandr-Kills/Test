@@ -72,42 +72,42 @@ body {
       background-color: #076e9f; }
 
 /* part-two */
-.part-two {
+#header .part-two {
   min-height: 433px;
   border-bottom: 2px solid #22aaec;
   background: url("../img/bg_header.jpg") no-repeat center;
   -webkit-background-size: cover;
           background-size: cover; }
-  .part-two .one {
+  #header .part-two .one {
     margin-top: 91px; }
-    .part-two .one .h1,
-    .part-two .one .p {
+    #header .part-two .one .h1,
+    #header .part-two .one .p {
       margin: 0 auto;
       text-align: center;
       color: #076e9f;
       background-color: rgba(255, 255, 255, 0.8); }
-    .part-two .one .h1 {
+    #header .part-two .one .h1 {
       max-width: 284px;
       min-height: 79px;
       font: 3.75em "League Gothic", sans-serif; }
-      .part-two .one .h1 h1 {
+      #header .part-two .one .h1 h1 {
         padding-top: 6px; }
-    .part-two .one .p {
+    #header .part-two .one .p {
       position: relative;
       top: 19px;
       min-height: 47px;
       max-width: 776px;
       letter-spacing: -0.12px;
       font: 1.875em "League Gothic", sans-serif; }
-      .part-two .one .p p {
+      #header .part-two .one .p p {
         padding-top: 7px; }
-    .part-two .one span {
+    #header .part-two .one span {
       color: #22aaec; }
-  .part-two .comments {
+  #header .part-two .comments {
     margin-top: 94px;
     height: 120px;
     background-color: rgba(0, 0, 0, 0.5); }
-    .part-two .comments .block {
+    #header .part-two .comments .block {
       position: relative;
       top: 25px;
       margin: 0 auto;
@@ -115,43 +115,49 @@ body {
       width: 154px;
       height: 69px;
       background-color: rgba(255, 255, 255, 0.9); }
-      .part-two .comments .block .photo {
+      #header .part-two .comments .block .photo {
         position: relative;
         right: 36px;
         text-align: left; }
-        .part-two .comments .block .photo img {
+        #header .part-two .comments .block .photo img {
           -webkit-border-radius: 50px;
                   border-radius: 50px;
           -webkit-transition: .3s;
           -o-transition: .3s;
           transition: .3s; }
-        .part-two .comments .block .photo img:hover {
+        #header .part-two .comments .block .photo img:hover {
           -webkit-box-shadow: 0 0 0 3px #22aaec;
                   box-shadow: 0 0 0 3px #22aaec; }
-      .part-two .comments .block .message {
+      #header .part-two .comments .block .message {
         margin-top: -67px;
         margin-left: 51px;
         text-align: left;
         line-height: 13px !important;
         font: italic 0.562em "Arial";
         color: #515151; }
-      .part-two .comments .block .name {
+      #header .part-two .comments .block .name {
         padding-top: 5px;
         font: 0.562em "Arial";
         color: #828282; }
-    .part-two .comments .one {
+    #header .part-two .comments .one {
       left: 31px; }
-      .part-two .comments .one .name {
+      #header .part-two .comments .one .name {
         padding-left: 33px; }
-    .part-two .comments .two {
+    #header .part-two .comments .two {
       left: 17px; }
-      .part-two .comments .two .name {
+      #header .part-two .comments .two .name {
         padding-left: 6px; }
-    .part-two .comments .three {
+    #header .part-two .comments .three {
       left: 3px; }
-      .part-two .comments .three .name {
+      #header .part-two .comments .three .name {
         padding-left: 20px; }
-    .part-two .comments .four {
+    #header .part-two .comments .four {
       right: 11px; }
-      .part-two .comments .four .name {
+      #header .part-two .comments .four .name {
         padding-left: 22px; }
+
+/* hack for safari */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  ::i-block-chrome, #header .part-two .comments .block.four .message {
+    margin-left: 47px;
+    width: 104px; } }

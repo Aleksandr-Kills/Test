@@ -77,7 +77,7 @@ body {
   }
 }
 /* part-two */
-.part-two {
+#header .part-two {
   min-height: 433px;
   border-bottom: 2px solid #22aaec;
   background: url("../img/bg_header.jpg") no-repeat center;
@@ -176,5 +176,12 @@ body {
         padding-left: 22px;
       }
     }
+  }
+}
+/* hack for safari */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  ::i-block-chrome, #header .part-two .comments .block.four .message {
+    margin-left:47px;
+    width:104px;
   }
 }
