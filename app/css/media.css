@@ -214,9 +214,17 @@
     #content .part-one .col-xs-12.col-md-3.col-md-pull-9 {
         padding-left: 35px;
     }
-    #content .part-one .main_block .block_one {
-        margin-top: -10px;
+    #header .part-two .comments .pre-content .col-xs-12.col-md-9.col-md-push-3,
+    #header .part-two .comments .pre-content  .col-xs-12.col-md-3.col-md-pull-9 {
+        padding: 0;
     }
+    #header .part-two .comments .pre-content .col-xs-12.col-md-9.col-md-push-3 {
+        padding-right: 35px;
+    }
+    #header .part-two .comments .pre-content  .col-xs-12.col-md-3.col-md-pull-9 {
+        padding-left: 35px;
+    }
+
 
 }
 
