@@ -269,3 +269,7 @@ body {
   #content .part-one .sidebar {
     min-height: 578px;
     background-color: blue; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  ::i-block-chrome, #content .part-one .main_block .block_one .p_one {
+    font-size: 0.59em; } }
