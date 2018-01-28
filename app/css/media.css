@@ -5,9 +5,28 @@
 
 }
 
+@media only screen and (max-width : 1000px) {
+    #content .part-one .main_block .block_one .p_one {
+        padding-left: 10px;
+    }
+    #content .part-one .main_block .block_one .button {
+        margin-left: 140px;
+    }
+}
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
-
+    @-moz-document url-prefix() {
+        #header .part-two .comments .block.four .message {
+            margin-left: 40px;
+            width: 104px;
+        }
+    }
+    #content .part-one .main_block .block_one .p_one {
+        padding-left: 22px;
+    }
+    #content .part-one .main_block .block_one .button {
+        margin-left: 151px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -60,6 +79,12 @@
     }
     #header .part-two .comments .message {
         margin-left:65px;
+    }
+    @-moz-document url-prefix() {
+        #header .part-two .comments .block.four .message {
+            margin-left: 51px;
+            width: 104px;
+        }
     }
     #header .part-two .comments .three .name {
         padding-left:18px;

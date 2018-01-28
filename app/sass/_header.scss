@@ -185,3 +185,10 @@ body {
     width:104px;
   }
 }
+/* hack for moz*/
+@-moz-document url-prefix() {
+  #header .part-two .comments .block.four .message {
+    margin-left:47px;
+    width:104px;
+  }
+}
