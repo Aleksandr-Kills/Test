@@ -1,1 +1,19 @@
 @import "extends", "variables", "header", 'footer';
+/* content */
+/* part-one */
+#content .part-one {
+    min-height: 578px;
+    border-top: 1px solid #3fb5ef;
+  .col-xs-12.col-md-9.col-md-push-3,
+  .col-xs-12.col-md-3.col-md-pull-9 {
+    padding: 0;
+  }
+  .sidebar {
+    min-height: 578px;
+    background-color: blue;
+  }
+  .main_block {
+    min-height: 578px;
+    background-color:green;
+  }
+}
