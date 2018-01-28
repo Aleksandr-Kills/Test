@@ -263,11 +263,11 @@ body {
             text-decoration: none;
             color: #076e9f; }
         #content .part-one .main_block .block_one .likes_comments .like {
-          background: url("../img/white_hand.png") no-repeat 13px;
-          padding: 6px 0 0 38px; }
+          padding: 6px 0 0 38px;
+          background: url("../img/white_hand.png") no-repeat 13px; }
         #content .part-one .main_block .block_one .likes_comments .comment {
-          background: url("../img/white_mesage.png") no-repeat 10px;
-          padding: 4px 0 0 35px; }
+          padding: 4px 0 0 35px;
+          background: url("../img/white_mesage.png") no-repeat 10px; }
         #content .part-one .main_block .block_one .likes_comments .block {
           float: right;
           margin-top: 25px;
@@ -278,9 +278,61 @@ body {
           border-top: 2.5px solid #076e9f; }
     #content .part-one .main_block .block_two {
       margin: 19px 0 0 13px; }
-      #content .part-one .main_block .block_two .first {
-        min-height: 214px;
-        background-color: #eaeaea; }
+      #content .part-one .main_block .block_two .first,
+      #content .part-one .main_block .block_two .second {
+        min-height: 184px;
+        background-color: #eaeaea;
+        -webkit-border-top-left-radius: 15px;
+                border-top-left-radius: 15px; }
+        #content .part-one .main_block .block_two .first .left,
+        #content .part-one .main_block .block_two .second .left {
+          padding: 21px 0 0 31px; }
+        #content .part-one .main_block .block_two .first h1,
+        #content .part-one .main_block .block_two .second h1 {
+          font: 1.375em "League Gothic", sans-serif;
+          color: #076e9f; }
+        #content .part-one .main_block .block_two .first .p_one,
+        #content .part-one .main_block .block_two .second .p_one {
+          font: 0.625em "Arial";
+          color: #878787; }
+          #content .part-one .main_block .block_two .first .p_one span,
+          #content .part-one .main_block .block_two .second .p_one span {
+            color: #076e9f; }
+        #content .part-one .main_block .block_two .first .p_two,
+        #content .part-one .main_block .block_two .second .p_two {
+          padding-top: 32px;
+          font: 0.625em "Arial";
+          line-height: 17px !important;
+          color: #5c5c5c; }
+        #content .part-one .main_block .block_two .first .p_three,
+        #content .part-one .main_block .block_two .second .p_three {
+          padding-top: 5px;
+          font: 0.625em "Arial"; }
+          #content .part-one .main_block .block_two .first .p_three a,
+          #content .part-one .main_block .block_two .second .p_three a {
+            color: #076e9f;
+            text-decoration: none; }
+          #content .part-one .main_block .block_two .first .p_three a:hover,
+          #content .part-one .main_block .block_two .second .p_three a:hover {
+            color: #22aaec; }
+      #content .part-one .main_block .block_two .likes_comments {
+        min-height: 31px;
+        text-align: right;
+        background-color: #f4f3f3; }
+        #content .part-one .main_block .block_two .likes_comments p {
+          margin-top: 6px;
+          height: 18px;
+          font: 0.625em "Arial";
+          display: inline-block; }
+          #content .part-one .main_block .block_two .likes_comments p a {
+            text-decoration: none;
+            color: #076e9f; }
+        #content .part-one .main_block .block_two .likes_comments .like {
+          padding: 6px 0 0 31px;
+          background: url("../img/blue_hand.png") no-repeat 13px; }
+        #content .part-one .main_block .block_two .likes_comments .comment {
+          padding: 4px 12px 0 30px;
+          background: url("../img/blue-message.png") no-repeat 10px; }
   #content .part-one .sidebar {
     min-height: 578px;
     background-color: inherit; }

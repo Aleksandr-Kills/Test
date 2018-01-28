@@ -92,12 +92,12 @@
           }
         }
         .like {
-          background: url("../img/white_hand.png") no-repeat 13px;
           padding: 6px 0 0 38px;
+          background: url("../img/white_hand.png") no-repeat 13px;
         }
         .comment {
-          background: url("../img/white_mesage.png") no-repeat 10px;
           padding: 4px 0 0 35px;
+          background: url("../img/white_mesage.png") no-repeat 10px;
         }
         .block {
           float: right;
@@ -112,11 +112,66 @@
     }
     .block_two {
       margin: 19px 0 0 13px;
-      .first {
-        min-height: 214px;
+      .first,
+      .second {
+        min-height: 184px;
         background-color: #eaeaea;
+        border-top-left-radius: 15px;
+        .left {
+          padding: 21px 0 0 31px;
+        }
+        h1 {
+          font: 1.375em "League Gothic", sans-serif;
+          color: #076e9f;
+        }
+        .p_one {
+          font: 0.625em "Arial";
+          color: #878787;
+          span {
+            color: #076e9f;
+          }
+        }
+        .p_two {
+          padding-top: 32px;
+          font: 0.625em "Arial";
+          line-height: 17px !important;
+          color: #5c5c5c;
+        }
+        .p_three {
+          padding-top: 5px;
+          font: 0.625em "Arial";
+          a {
+            color: #076e9f;
+            text-decoration: none;
+          }
+          a:hover {
+            color: #22aaec;
+          }
+        }
       }
-
+      .likes_comments {
+        min-height: 31px;
+        text-align: right;
+        background-color: #f4f3f3;
+        p {
+          margin-top: 6px;
+          height: 18px;
+          font: 0.625em "Arial";;
+          display: inline-block;
+          a {
+            text-decoration: none;
+            color: #076e9f;
+          }
+        }
+        .like {
+          padding: 6px 0 0 31px;
+          background: url("../img/blue_hand.png") no-repeat 13px;
+        }
+        .comment {
+          padding: 4px 12px 0 30px;
+          background: url("../img/blue-message.png") no-repeat 10px;
+        }
+      }
     }
 
 
