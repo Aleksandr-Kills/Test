@@ -5,10 +5,18 @@
 
 }
 
+@media only screen and (max-width : 1051px) {
+    @-moz-document url-prefix() {
+        #content .part-one .main_block .block_one .p_one {
+            font-size: 0.59em;
+        }
+    }
+}
 @media only screen and (max-width : 1000px) {
     #content .part-one .main_block .block_one .p_one {
         padding-left: 10px;
     }
+
     #content .part-one .main_block .block_one .button {
         margin-left: 140px;
     }
@@ -26,6 +34,11 @@
     }
     #content .part-one .main_block .block_one .button {
         margin-left: 151px;
+    }
+    @-moz-document url-prefix() {
+        #content .part-one .main_block .block_one .p_one {
+            font-size: 0.625em;
+        }
     }
 }
 
