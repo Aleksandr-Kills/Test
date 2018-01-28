@@ -229,6 +229,9 @@ body {
         font: bold 0.625em "Arial";
         background-color: #076e9f;
         color: #fff; }
+      #content .part-one .main_block .block_one .button button:hover {
+        color: #00141e;
+        background-color: #fff; }
   #content .part-one .sidebar {
     min-height: 578px;
     background-color: blue; }
