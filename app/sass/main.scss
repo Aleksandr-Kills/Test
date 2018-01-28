@@ -75,16 +75,43 @@
         }
       }
       .likes_comments {
-
+        float:right;
+        margin:-27px -6px 0 0;
+        width: 179px;
+        height: 26px;
+        background-color: #90d4f5;
+        border-top: 1px solid #9fdaf6;
+        p {
+          height:18px;
+          font: 0.625em "Arial";
+          color: #076e9f;
+          display: inline-block;
+        }
+        .like {
+          background: url("../img/white_hand.png") no-repeat 13px;
+          padding:6px 0 0 38px;
+        }
+        .comment {
+          background: url("../img/white_mesage.png") no-repeat 10px;
+          padding:4px 0 0 35px;
+        }
+        .block {
+          float:right;
+          margin-top:25px;
+          width: 3px;
+          height: 3px;
+          border: 2.5px solid transparent;
+          border-left: 2.5px solid #076e9f;
+          border-top: 2.5px solid #076e9f;
+        }
       }
-
     }
 
 
   }
+
   .sidebar {
     min-height: 578px;
     background-color: blue;
   }
-
 }

@@ -64,6 +64,25 @@
     #header .part-two .comments .three .name {
         padding-left:18px;
     }
+    #content .part-one .main_block .block_one {
+        text-align: center;
+    }
+    #content .part-one .main_block .block_one .p_one {
+        padding: 0;
+        display:block;
+    }
+    #content .part-one .main_block .block_one .date_one {
+        margin-left: 0;
+    }
+    #content .part-one .main_block .block_one .button {
+        margin-left: 15px;
+    }
+    #content .part-one .main_block .block_one {
+        min-height: 345px;
+    }
+    #content .part-one .main_block .block_one h1 {
+        padding-left:0;
+    }
 }
 
 /* Extra Small Devices, Phones */
