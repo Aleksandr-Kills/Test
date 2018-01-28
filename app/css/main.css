@@ -242,8 +242,10 @@ body {
       #content .part-one .main_block .block_one .likes_comments p {
         height: 18px;
         font: 0.625em "Arial";
-        color: #076e9f;
         display: inline-block; }
+        #content .part-one .main_block .block_one .likes_comments p a {
+          text-decoration: none;
+          color: #076e9f; }
       #content .part-one .main_block .block_one .likes_comments .like {
         background: url("../img/white_hand.png") no-repeat 13px;
         padding: 6px 0 0 38px; }

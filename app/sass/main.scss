@@ -83,9 +83,12 @@
         border-top: 1px solid #9fdaf6;
         p {
           height:18px;
-          font: 0.625em "Arial";
-          color: #076e9f;
+          font: 0.625em "Arial";;
           display: inline-block;
+          a {
+            text-decoration: none;
+            color: #076e9f;
+          }
         }
         .like {
           background: url("../img/white_hand.png") no-repeat 13px;
