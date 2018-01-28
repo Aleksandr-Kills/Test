@@ -147,6 +147,19 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    #content .part-one .col-xs-12.col-md-9.col-md-push-3,
+    #content .part-one .col-xs-12.col-md-3.col-md-pull-9 {
+        padding: 0;
+    }
+    #content .part-one .col-xs-12.col-md-9.col-md-push-3 {
+        padding-right: 35px;
+    }
+    #content .part-one .col-xs-12.col-md-3.col-md-pull-9 {
+        padding-left: 35px;
+    }
+    #content .part-one .main_block .block_one {
+        margin-top: -10px;
+    }
 
 }
 
