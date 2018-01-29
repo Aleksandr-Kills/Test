@@ -168,13 +168,13 @@ body {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   ::i-block-chrome, #header .part-two .comments .block.four .message {
     margin-left: 47px;
-    width: 104px; } }
+    width: 104px;
+    letter-spacing: -0.1px; } }
 
 /* hack for moz*/
 @-moz-document url-prefix() {
   #header .part-two .comments .block.four .message {
-    margin-left: 47px;
-    width: 104px; } }
+    letter-spacing: -0.1px; } }
 
 /* content */
 /* part-one */
@@ -184,7 +184,10 @@ body {
   #content .part-one .main_block {
     min-height: 578px;
     border-left: 1px dotted #d5d5d5;
-    border-bottom: 1px dotted #d5d5d5; }
+    border-bottom: 1px dotted #d5d5d5;
+    /* block one */
+    /* block two */
+    /* banner */ }
     #content .part-one .main_block .block_one {
       min-height: 189px;
       border-right: 1px dotted #d5d5d5;
@@ -342,21 +345,31 @@ body {
         padding-right: 7px; }
       #content .part-one .main_block .block_two .two {
         padding-left: 7px; }
+    #content .part-one .main_block .banner {
+      margin-top: 30px;
+      margin-left: 13px;
+      height: 85px; }
   #content .part-one .sidebar {
     min-height: 578px;
     background-color: inherit; }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  ::i-block-chrome, #content .part-one .main_block .block_one .p_one {
-    font-size: 0.59em; } }
+@-moz-document url-prefix() {
+  #content .part-one .main_block .block_one .p_one {
+    letter-spacing: -0.2px; } }
 
 @-moz-document url-prefix() {
   #content .part-one .main_block .block_two .second .p_two {
-    padding-top: 3px; } }
+    padding-top: 3px;
+    letter-spacing: -0.2px; } }
 
 @-moz-document url-prefix() {
   #content .part-one .main_block .block_two .first .p_two {
-    padding-top: 25px; } }
+    padding-top: 25px;
+    letter-spacing: -0.2px; } }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  ::i-block-chrome, #content .part-one .main_block .block_one .p_one {
+    font-size: 0.59em; } }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   ::i-block-chrome, #content .part-one .main_block .block_two .first .p_two {

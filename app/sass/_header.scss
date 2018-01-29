@@ -195,12 +195,13 @@ body {
   ::i-block-chrome, #header .part-two .comments .block.four .message {
     margin-left:47px;
     width:104px;
+    letter-spacing: -0.1px;
   }
 }
+
 /* hack for moz*/
 @-moz-document url-prefix() {
   #header .part-two .comments .block.four .message {
-    margin-left:47px;
-    width:104px;
+    letter-spacing: -0.1px;
   }
 }

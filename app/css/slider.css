@@ -1,0 +1,18 @@
+#content .part-one .banner .slider {
+    height: 85px;
+}
+.slick-track {
+    height: 85px;
+}
+#content .part-one .banner .slider .img_1 {
+    background: url("../img/league-gothic-5.jpg") no-repeat center;
+    background-size: cover;
+}
+#content .part-one .banner .slider .img_2 {
+    background: url("../img/league-gothic-3.png") no-repeat center;
+    background-size: cover;
+}
+#content .part-one .banner .slider .img_3 {
+    background: url("../img/league-gothic-6.png") no-repeat center;
+    background-size: cover;
+}

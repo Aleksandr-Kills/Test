@@ -5,50 +5,13 @@
 
 }
 
-@media only screen and (max-width : 1050px) {
-    @-moz-document url-prefix() {
-        #content .part-one .main_block .block_one .p_one {
-            font-size: 0.59em;
-        }
-    }
-    @-moz-document url-prefix() {
-        #content .part-one .main_block .block_two .second .p_two {
-            font-size: 0.59em;
-        }
-    }
-    @-moz-document url-prefix() {
-        #content .part-one .main_block .block_two .first .p_two {
-            font-size: 0.59em;
-        }
-    }
-}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
     @-moz-document url-prefix() {
         #header .part-two .comments .block.four .message {
-            margin-left: 40px;
-            width: 104px;
-        }
-    }
-    #content .part-one .main_block .block_one .p_one {
-        padding-left: 22px;
-    }
-    #content .part-one .main_block .block_one .button {
-        margin-left: 151px;
-    }
-    @-moz-document url-prefix() {
-        #content .part-one .main_block .block_one .p_one {
-            font-size: 0.625em;
-        }
-    }
-    @-moz-document url-prefix() {
-        #content .part-one .main_block .block_two .second .p_two {
-            font-size: 0.625em;
-        }
-    }
-    @-moz-document url-prefix() {
-        #content .part-one .main_block .block_two .first .p_two {
-            font-size: 0.625em;
+            margin-left:47px;
+            width:104px;
         }
     }
 }
@@ -108,6 +71,7 @@
         #header .part-two .comments .block.four .message {
             margin-left: 51px;
             width: 104px;
+            letter-spacing: 0;
         }
     }
     #header .part-two .comments .three .name {
@@ -164,7 +128,7 @@
         margin-top: 20px;
     }
     #content .part-one .main_block .block_two .second .p_two {
-        padding-top: 20px;
+        padding-top: 10px;
     }
     #content .part-one .main_block {
         border-right: 1px dotted #d5d5d5;
