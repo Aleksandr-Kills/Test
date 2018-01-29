@@ -133,6 +133,9 @@
     #content .part-one .main_block {
         border-right: 1px dotted #d5d5d5;
     }
+    #content .part-one .main_block .banner {
+        margin-right: 13px;
+    }
 }
 
 /* Extra Small Devices, Phones */

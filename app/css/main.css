@@ -322,9 +322,7 @@ body {
         min-height: 41px;
         margin-top: -1px;
         text-align: right;
-        background: url("../img/likes_comments.png") no-repeat center;
-        -webkit-background-size: cover;
-                background-size: cover; }
+        background-color: #f4f3f3; }
         #content .part-one .main_block .block_two .likes_comments p {
           margin-top: 6px;
           height: 18px;
@@ -346,9 +344,22 @@ body {
       #content .part-one .main_block .block_two .two {
         padding-left: 7px; }
     #content .part-one .main_block .banner {
-      margin-top: 30px;
-      margin-left: 13px;
-      height: 85px; }
+      margin-top: 21px;
+      margin-left: 13px; }
+    #content .part-one .main_block .shadow {
+      -webkit-box-shadow: 0 0 8px 2.6px rgba(0, 0, 0, 0.9);
+              box-shadow: 0 0 8px 2.6px rgba(0, 0, 0, 0.9);
+      max-width: 98%;
+      margin: 0 auto; }
+    #content .part-one .main_block .transform {
+      -webkit-border-radius: 13em/0.5em;
+              border-radius: 13em/0.5em;
+      height: 30px;
+      background-color: #fff;
+      max-width: 100%;
+      margin: 1.5px auto;
+      -webkit-box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.7);
+              box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.7); }
   #content .part-one .sidebar {
     min-height: 578px;
     background-color: inherit; }
