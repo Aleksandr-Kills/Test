@@ -132,7 +132,7 @@
           }
         }
         .p_two {
-          padding-top: 32px;
+          padding-top: 30px;
           font: 0.625em "Arial";
           line-height: 17px !important;
           color: #5c5c5c;
@@ -172,6 +172,17 @@
           background: url("../img/blue-message.png") no-repeat 10px;
         }
       }
+      .second {
+        .p_two {
+          padding-top: 8px;
+        }
+      }
+      .one {
+        padding-right: 7px;
+      }
+      .two {
+        padding-left: 7px;
+      }
     }
 
 
@@ -185,6 +196,28 @@
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   ::i-block-chrome, #content .part-one .main_block .block_one .p_one {
+    font-size: 0.59em;
+  }
+}
+@-moz-document url-prefix() {
+  #content .part-one .main_block .block_two .second .p_two {
+    padding-top: 3px;
+  }
+}
+@-moz-document url-prefix() {
+  #content .part-one .main_block .block_two .first .p_two {
+    padding-top: 25px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  ::i-block-chrome, #content .part-one .main_block .block_two .first .p_two {
+    padding-top: 25px;
+    font-size: 0.59em;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  ::i-block-chrome, #content .part-one .main_block .block_two .second .p_two {
+    padding-top: 3px;
     font-size: 0.59em;
   }
 }

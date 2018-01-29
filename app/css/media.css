@@ -11,14 +11,29 @@
             font-size: 0.59em;
         }
     }
+    @-moz-document url-prefix() {
+        #content .part-one .main_block .block_two .second .p_two {
+            padding-top: 3px;
+            font-size: 0.59em;
+        }
+    }
+    @-moz-document url-prefix() {
+        #content .part-one .main_block .block_two .first .p_two {
+            font-size: 0.59em;
+        }
+    }
 }
-@media only screen and (max-width : 1000px) {
+@media only screen and (max-width : 1007px) {
     #content .part-one .main_block .block_one .p_one {
         padding-left: 10px;
     }
 
     #content .part-one .main_block .block_one .button {
         margin-left: 140px;
+    }
+    #content .part-one .main_block .block_two .first .left,
+    #content .part-one .main_block .block_two .second .left {
+        padding-left: 25px;
     }
 }
 /* Medium Devices, Desktops */
@@ -39,6 +54,20 @@
         #content .part-one .main_block .block_one .p_one {
             font-size: 0.625em;
         }
+    }
+    @-moz-document url-prefix() {
+        #content .part-one .main_block .block_two .second .p_two {
+            font-size: 0.625em;
+        }
+    }
+    @-moz-document url-prefix() {
+        #content .part-one .main_block .block_two .first .p_two {
+            font-size: 0.625em;
+        }
+    }
+    #content .part-one .main_block .block_two .first .left,
+    #content .part-one .main_block .block_two .second .left {
+        padding-left: 31px;
     }
 }
 
