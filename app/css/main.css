@@ -316,9 +316,12 @@ body {
           #content .part-one .main_block .block_two .second .p_three a:hover {
             color: #22aaec; }
       #content .part-one .main_block .block_two .likes_comments {
-        min-height: 31px;
+        min-height: 41px;
+        margin-top: -1px;
         text-align: right;
-        background-color: #f4f3f3; }
+        background: #f4f3f3 url("../img/likes_comments.png") no-repeat center;
+        -webkit-background-size: cover;
+                background-size: cover; }
         #content .part-one .main_block .block_two .likes_comments p {
           margin-top: 6px;
           height: 18px;
