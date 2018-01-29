@@ -319,7 +319,7 @@ body {
         min-height: 41px;
         margin-top: -1px;
         text-align: right;
-        background: #f4f3f3 url("../img/likes_comments.png") no-repeat center;
+        background: url("../img/likes_comments.png") no-repeat center;
         -webkit-background-size: cover;
                 background-size: cover; }
         #content .part-one .main_block .block_two .likes_comments p {

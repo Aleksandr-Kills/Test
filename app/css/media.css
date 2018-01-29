@@ -117,7 +117,7 @@
         text-align: center;
     }
     #content .part-one .main_block .block_one .p_one {
-        padding: 0;
+        padding: 15px 10px 0 10px;
         display:block;
     }
     #content .part-one .main_block .block_one .date_one {
@@ -131,6 +131,43 @@
     }
     #content .part-one .main_block .block_one .div {
         padding-bottom: 20px;
+    }
+    #content .part-one .main_block .block_one .p_one br {
+        display: none;
+    }
+    #content .part-one .main_block .block_two p br {
+        display:none;
+    }
+    #content .part-one .main_block .block_two {
+        text-align:center;
+        margin-right: 13px;
+    }
+    #content .part-one .main_block .block_two .first,
+    #content .part-one .main_block .block_two .second {
+        border-top-right-radius: 15px;
+    }
+    #content .part-one .main_block .block_two .first .left,
+    #content .part-one .main_block .block_two .second .left {
+        padding-left: 0;
+    }
+    #content .part-one .main_block .block_two .p_two {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #content .part-one .main_block .block_two .one {
+        padding-right: 15px;
+    }
+    #content .part-one .main_block .block_two .two {
+        padding-left: 15px;
+    }
+    #content .part-one .main_block .block_two .second {
+        margin-top: 20px;
+    }
+    #content .part-one .main_block .block_two .second .p_two {
+        padding-top: 20px;
+    }
+    #content .part-one .main_block {
+        border-right: 1px dotted #d5d5d5;
     }
 }
 
