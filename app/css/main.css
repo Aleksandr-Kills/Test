@@ -157,10 +157,10 @@ body {
         padding-left: 22px; }
     #header .part-two .comments .pre-content .line {
       position: relative;
-      top: 41px;
+      top: 42px;
       border-top: 1px solid #22aaec; }
     #header .part-two .comments .pre-content .div {
-      height: 12px;
+      height: 13px;
       background-color: #fff;
       border-top: 1px solid #299ed7; }
 
@@ -343,8 +343,15 @@ body {
         padding-right: 7px; }
       #content .part-one .main_block .block_two .two {
         padding-left: 7px; }
+      #content .part-one .main_block .block_two .line {
+        position: relative;
+        top: -43px;
+        height: 10px;
+        min-height: 10px;
+        background-color: #f4f3f3; }
+      #content .part-one .main_block .block_two .shadow {
+        width: 95%; }
     #content .part-one .main_block .banner {
-      margin-top: 21px;
       margin-left: 13px; }
     #content .part-one .main_block .shadow {
       -webkit-box-shadow: 0 0 8px 2.6px rgba(0, 0, 0, 0.9);

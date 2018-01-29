@@ -186,10 +186,19 @@
       .two {
         padding-left: 7px;
       }
+      .line {
+        position:relative;
+        top:-43px;
+        height: 10px;
+        min-height: 10px;
+        background-color: #f4f3f3;;
+      }
+      .shadow {
+        width: 95%;
+      }
     }
     /* banner */
     .banner {
-      margin-top: 21px;
       margin-left: 13px;
     }
     .shadow {
@@ -205,8 +214,6 @@
       margin: 1.5px auto;
       box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.7)
     }
-
-
   }
 
   .sidebar {
