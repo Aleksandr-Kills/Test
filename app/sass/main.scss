@@ -188,8 +188,7 @@
       }
       .line {
         position:relative;
-        top:-41px;
-        height: 10px;
+        top: -41px;
         min-height: 10px;
         background-color: #f4f3f3;;
       }
@@ -221,7 +220,66 @@
   /* sidebar */
   .sidebar {
     min-height: 578px;
-    background-color: inherit;
+    h1 {
+      font: 1.375em "League Gothic", sans-serif;
+      color: #076e9f;
+    }
+    .block-one {
+      margin-top: 28px;
+      min-height: 141px;
+      border-bottom: 1px dotted #d5d5d5;
+      p {
+        padding-top: 12px;
+        font: 0.625em "Arial";
+        color: #5c5c5c;
+        line-height:17px !important;
+        span {
+          color: #076e9f;
+          font-weight: bold;
+        }
+      }
+    }
+    .block-two {
+      margin-top: 13px;
+      min-height: 203px;
+      border-bottom: 1px dotted #d5d5d5;
+      .one,
+      .two,
+      .three {
+        max-height: 40px;
+      }
+      .one {
+        margin-top: 9px;
+      }
+      .two,
+      .three{
+        margin-top: 11px;
+      }
+      p,
+      h2 {
+        display: inline-block;
+      }
+      h2 {
+        position: relative;
+        top: -26px;
+        padding-left: 13px;
+        font: bold 0.625em "Arial";
+        color: #5c5c5c;
+      }
+      .comments {
+        height: 20px;
+        padding: 2px 0 0 30px;
+        position: relative;
+        left: 57px;
+        top: -34px;
+        background: url("../img/gray-message.png") no-repeat 10px;
+        font: italic 0.625em "Arial";
+        a {
+          color: #5c5c5c;
+          text-decoration: none;
+        }
+      }
+    }
   }
 }
 

@@ -347,7 +347,6 @@ body {
       #content .part-one .main_block .block_two .line {
         position: relative;
         top: -41px;
-        height: 10px;
         min-height: 10px;
         background-color: #f4f3f3; }
       #content .part-one .main_block .block_two .shadow {
@@ -372,8 +371,55 @@ body {
       -webkit-box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.7);
               box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.7); }
   #content .part-one .sidebar {
-    min-height: 578px;
-    background-color: inherit; }
+    min-height: 578px; }
+    #content .part-one .sidebar h1 {
+      font: 1.375em "League Gothic", sans-serif;
+      color: #076e9f; }
+    #content .part-one .sidebar .block-one {
+      margin-top: 28px;
+      min-height: 141px;
+      border-bottom: 1px dotted #d5d5d5; }
+      #content .part-one .sidebar .block-one p {
+        padding-top: 12px;
+        font: 0.625em "Arial";
+        color: #5c5c5c;
+        line-height: 17px !important; }
+        #content .part-one .sidebar .block-one p span {
+          color: #076e9f;
+          font-weight: bold; }
+    #content .part-one .sidebar .block-two {
+      margin-top: 13px;
+      min-height: 203px;
+      border-bottom: 1px dotted #d5d5d5; }
+      #content .part-one .sidebar .block-two .one,
+      #content .part-one .sidebar .block-two .two,
+      #content .part-one .sidebar .block-two .three {
+        max-height: 40px; }
+      #content .part-one .sidebar .block-two .one {
+        margin-top: 9px; }
+      #content .part-one .sidebar .block-two .two,
+      #content .part-one .sidebar .block-two .three {
+        margin-top: 11px; }
+      #content .part-one .sidebar .block-two p,
+      #content .part-one .sidebar .block-two h2 {
+        display: inline-block; }
+      #content .part-one .sidebar .block-two h2 {
+        position: relative;
+        top: -26px;
+        padding-left: 13px;
+        font: bold 0.625em "Arial";
+        color: #5c5c5c; }
+      #content .part-one .sidebar .block-two .comments {
+        height: 20px;
+        padding: 2px 0 0 30px;
+        position: relative;
+        left: 57px;
+        top: -34px;
+        background: url("../img/gray-message.png") no-repeat 10px;
+        font: italic 0.625em "Arial"; }
+        #content .part-one .sidebar .block-two .comments a {
+          color: #5c5c5c;
+          text-decoration: none; }
 
 @-moz-document url-prefix() {
   #content .part-one .main_block .block_one .p_one {
