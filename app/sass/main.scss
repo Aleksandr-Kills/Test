@@ -152,7 +152,7 @@
         }
       }
       .likes_comments {
-        min-height: 41px;
+        min-height: 33px;
         margin-top:-1px;
         text-align: right;
         background-color: #f4f3f3;
@@ -188,7 +188,7 @@
       }
       .line {
         position:relative;
-        top:-43px;
+        top:-41px;
         height: 10px;
         min-height: 10px;
         background-color: #f4f3f3;;
@@ -200,6 +200,8 @@
     /* banner */
     .banner {
       margin-left: 13px;
+      position:  relative;
+      top: -10px;
     }
     .shadow {
       box-shadow:0 0 8px 2.6px rgba(0, 0, 0, 0.9);
@@ -212,10 +214,11 @@
       background-color: #fff;
       max-width:100%;
       margin: 1.5px auto;
+      margin-bottom: 0;
       box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.7)
     }
   }
-
+  /* sidebar */
   .sidebar {
     min-height: 578px;
     background-color: inherit;
