@@ -14,6 +14,24 @@
             width:104px;
         }
     }
+    #content .part-one .sidebar .block-three .stats .value {
+        position: relative;
+        right: 3px;
+    }
+    #content .part-one .sidebar .block-three .stats .status {
+        position: relative;
+        right: 5px;
+    }
+    #content .part-one .sidebar .block-three .stats .diff {
+        position: relative;
+        right: 8px;
+    }
+    #content .part-one .sidebar .block-three .stats p {
+        border-top: 2px solid #fff;
+    }
+    #content .part-one .sidebar {
+        text-align: center;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -132,9 +150,6 @@
     }
     #content .part-one .main_block .banner {
         margin-right: 13px;
-    }
-    #content .part-one .sidebar {
-        text-align: center;
     }
     #content .part-one .sidebar .block-one p br {
         display: none;
