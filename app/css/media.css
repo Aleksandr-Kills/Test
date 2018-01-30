@@ -154,6 +154,25 @@
     #content .part-one .sidebar .block-one p br {
         display: none;
     }
+    #content .part-one .sidebar .block-one,
+    #content .part-one .sidebar .block-two,
+    #content .part-one .sidebar .block-three {
+        border-left: 1px dotted #d5d5d5;
+        border-right: 1px dotted #d5d5d5;
+        margin-top: 0;
+    }
+    #content .part-one .sidebar .block-one h1 {
+        padding-top: 30px;
+    }
+    #content .part-one .sidebar .block-two h1 {
+        padding-top: 15px;
+    }
+    #content .part-one .sidebar .block-three h1 {
+        padding-top: 25px;
+    }
+    #content .part-one .sidebar .block-one p {
+        padding: 0 10px 0 10px;
+    }
 }
 
 /* Extra Small Devices, Phones */
