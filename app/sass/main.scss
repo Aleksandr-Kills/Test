@@ -304,13 +304,11 @@
         .status {
           position:relative;
           top: 2px;
+          right: 7px
         }
         .value {
           position: relative;
           right: 3px; }
-        .status {
-          position: relative;
-          right: 7px; }
         .diff {
           position: relative;
           right: 10px; }
@@ -339,37 +337,45 @@
   }
 }
 
+/*hack for moz */
 @-moz-document url-prefix() {
   #content .part-one .main_block .block_one .p_one {
     letter-spacing: -0.2px;
   }
-}
-@-moz-document url-prefix() {
   #content .part-one .main_block .block_two .second .p_two {
     padding-top: 3px;
     letter-spacing: -0.2px;
   }
-}
-@-moz-document url-prefix() {
   #content .part-one .main_block .block_two .first .p_two {
     padding-top: 25px;
     letter-spacing: -0.2px;
   }
+  #content .part-one .sidebar .block-three .stats .status {
+    top: 1px;
+  }
+  #content .part-one .main_block .block_two .likes_comments {
+    min-height: 35px;
+  }
+  #content .part-one .main_block .block_two .line {
+      top: -44px;
+      min-height: 11px;
+  }
+  #content .part-one .sidebar .block-three {
+    min-height: 179.5px;
+  }
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   ::i-block-chrome, #content .part-one .main_block .block_one .p_one {
-    font-size: 0.59em;
-  }
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    font-size: 0.59em; }
   ::i-block-chrome, #content .part-one .main_block .block_two .first .p_two {
     padding-top: 25px;
-    font-size: 0.59em;
-  }
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    font-size: 0.59em; }
   ::i-block-chrome, #content .part-one .main_block .block_two .second .p_two {
     padding-top: 3px;
-    font-size: 0.59em;
-  }
+    font-size: 0.59em; }
+  ::i-block-chrome, #content .part-one .sidebar .block-three .stats .status {
+    top: 1px;
+    right: 6px; }
+  ::i-block-chrome, #content .part-one .sidebar .block-three .stats .diff {
+    right: 9px; }
 }
