@@ -420,6 +420,50 @@ body {
         #content .part-one .sidebar .block-two .comments a {
           color: #5c5c5c;
           text-decoration: none; }
+    #content .part-one .sidebar .block-three {
+      min-height: 177px;
+      margin-top: 18px;
+      border-bottom: 1px dotted #d5d5d5; }
+      #content .part-one .sidebar .block-three .stats {
+        margin-top: 5px;
+        height: 78px;
+        min-width: 160px; }
+        #content .part-one .sidebar .block-three .stats .date,
+        #content .part-one .sidebar .block-three .stats .value,
+        #content .part-one .sidebar .block-three .stats .status,
+        #content .part-one .sidebar .block-three .stats .diff {
+          min-width: 38px;
+          display: inline-block;
+          text-align: center; }
+        #content .part-one .sidebar .block-three .stats .status {
+          position: relative;
+          top: 2px; }
+        #content .part-one .sidebar .block-three .stats .value {
+          position: relative;
+          right: 3px; }
+        #content .part-one .sidebar .block-three .stats .status {
+          position: relative;
+          right: 7px; }
+        #content .part-one .sidebar .block-three .stats .diff {
+          position: relative;
+          right: 10px; }
+        #content .part-one .sidebar .block-three .stats h2 {
+          height: 19px;
+          width: 39px;
+          padding-top: 4px;
+          font: 0.625em "Arial";
+          color: #fff;
+          background-color: #076e9f; }
+        #content .part-one .sidebar .block-three .stats p {
+          padding-top: 4px;
+          height: 19px;
+          width: 39px;
+          font: 0.625em "Arial";
+          color: #076e9f;
+          background-color: #c7e9fa;
+          border-top: 1px solid #fff; }
+        #content .part-one .sidebar .block-three .stats .row-two {
+          background-color: #b1e1f8; }
 
 @-moz-document url-prefix() {
   #content .part-one .main_block .block_one .p_one {

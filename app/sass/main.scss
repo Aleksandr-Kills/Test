@@ -280,6 +280,57 @@
         }
       }
     }
+    .block-three {
+      min-height: 177px;
+      margin-top: 18px;
+      border-bottom: 1px dotted #d5d5d5;
+      .stats {
+        margin-top:5px;
+        height: 78px;
+        min-width: 160px;
+        .date,
+        .value,
+        .status,
+        .diff {
+          min-width: 38px;
+          display: inline-block;
+          text-align: center;
+        }
+        .status {
+          position:relative;
+          top: 2px;
+        }
+        .value {
+          position: relative;
+          right: 3px; }
+        .status {
+          position: relative;
+          right: 7px; }
+        .diff {
+          position: relative;
+          right: 10px; }
+        h2 {
+          height:19px;
+          width:39px;
+          padding-top:4px;
+          font: 0.625em "Arial";
+          color: #fff;
+          background-color: #076e9f;
+        }
+        p {
+          padding-top:4px;
+          height:19px;
+          width:39px;
+          font: 0.625em "Arial";
+          color: #076e9f;
+          background-color: #c7e9fa;
+          border-top: 1px solid #fff;
+        }
+        .row-two {
+          background-color: #b1e1f8;
+        }
+      }
+    }
   }
 }
 

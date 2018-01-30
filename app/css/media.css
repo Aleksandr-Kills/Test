@@ -133,6 +133,12 @@
     #content .part-one .main_block .banner {
         margin-right: 13px;
     }
+    #content .part-one .sidebar {
+        text-align: center;
+    }
+    #content .part-one .sidebar .block-one p br {
+        display: none;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -236,7 +242,7 @@
     #header .part-two .comments .pre-content  .col-xs-12.col-md-3.col-md-pull-9 {
         padding-left: 35px;
     }
-    #content .part-one .sidebar .col-xs-4.col-md-12 {
+    #content .part-one .sidebar .col-xs-12.col-sm-4.col-md-12 {
         padding: 0;
     }
 
