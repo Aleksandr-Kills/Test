@@ -32,6 +32,11 @@
     #content .part-one .sidebar {
         text-align: center;
     }
+    #content .part-one .sidebar .block-two .one,
+    #content .part-one .sidebar .block-two .two,
+    #content .part-one .sidebar .block-two .three {
+        margin-left:15%;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -173,6 +178,11 @@
     #content .part-one .sidebar .block-one p {
         padding: 0 10px 0 10px;
     }
+    #content .part-one .sidebar .block-two .one,
+    #content .part-one .sidebar .block-two .two,
+    #content .part-one .sidebar .block-two .three {
+        margin-left:3%;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -205,6 +215,11 @@
 @media only screen and (max-width : 400px) {
     #header .part-two .comments .block {
         width: 85%;
+    }
+    #content .part-one .sidebar .block-two .one,
+    #content .part-one .sidebar .block-two .two,
+    #content .part-one .sidebar .block-two .three {
+        margin-left:17%;
     }
 }
 

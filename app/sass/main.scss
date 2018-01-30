@@ -257,26 +257,31 @@
       }
       p,
       h2 {
-        display: inline-block;
+        text-align:left;
       }
       h2 {
+        max-width: 120px;
         position: relative;
-        top: -26px;
-        padding-left: 13px;
+        top: -41px;
+        left:68px;
         font: bold 0.625em "Arial";
         color: #5c5c5c;
       }
       .comments {
+        max-width: 130px;
         height: 20px;
         padding: 2px 0 0 30px;
         position: relative;
         left: 57px;
-        top: -34px;
+        top: -39px;
         background: url("../img/gray-message.png") no-repeat 10px;
         font: italic 0.625em "Arial";
         a {
           color: #5c5c5c;
           text-decoration: none;
+        }
+        a:hover {
+          color: #c7e9fa;
         }
       }
     }

@@ -402,24 +402,28 @@ body {
         margin-top: 11px; }
       #content .part-one .sidebar .block-two p,
       #content .part-one .sidebar .block-two h2 {
-        display: inline-block; }
+        text-align: left; }
       #content .part-one .sidebar .block-two h2 {
+        max-width: 120px;
         position: relative;
-        top: -26px;
-        padding-left: 13px;
+        top: -41px;
+        left: 68px;
         font: bold 0.625em "Arial";
         color: #5c5c5c; }
       #content .part-one .sidebar .block-two .comments {
+        max-width: 130px;
         height: 20px;
         padding: 2px 0 0 30px;
         position: relative;
         left: 57px;
-        top: -34px;
+        top: -39px;
         background: url("../img/gray-message.png") no-repeat 10px;
         font: italic 0.625em "Arial"; }
         #content .part-one .sidebar .block-two .comments a {
           color: #5c5c5c;
           text-decoration: none; }
+        #content .part-one .sidebar .block-two .comments a:hover {
+          color: #c7e9fa; }
     #content .part-one .sidebar .block-three {
       min-height: 177px;
       margin-top: 18px;
