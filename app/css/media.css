@@ -31,11 +31,19 @@
     }
     #content .part-one .sidebar {
         text-align: center;
+        min-height: 200px;
     }
     #content .part-one .sidebar .block-two .one,
     #content .part-one .sidebar .block-two .two,
     #content .part-one .sidebar .block-two .three {
         margin-left:15%;
+    }
+    #content .part-two .main {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #content .part-two .main h1 {
+        padding-left: 0;
     }
 }
 

@@ -467,6 +467,22 @@ body {
         #content .part-one .sidebar .block-three .stats .row-two {
           background-color: #b1e1f8; }
 
+/* part-two */
+#content .part-two {
+  min-height: 262px; }
+  #content .part-two .main {
+    margin-top: 12px; }
+    #content .part-two .main h1 {
+      padding-left: 38px;
+      font: 2em "League Gothic", sans-serif;
+      color: #076e9f; }
+    #content .part-two .main #map {
+      margin-top: 10px;
+      min-height: 203px;
+      width: 100%;
+      border-top: 2px solid rgba(0, 0, 0, 0.25);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.25); }
+
 /*hack for moz */
 @-moz-document url-prefix() {
   #content .part-one .main_block .block_one .p_one {

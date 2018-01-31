@@ -278,18 +278,16 @@
       <!-- part-two -->
       <div class="part-two">
           <div class="container-fluid">
-              <div class="row"></div>
-
+              <div class="row">
+                  <div class="main">
+                  <h1>WHERE CAN I FIND MORE INFORMATION</h1>
+                  <div id="map"></div>
+                  </div>
+              </div>
           </div>
-
       </div>
-
-
-
-
-
-
   </div>
+  <!-- header -->
 
 
 
@@ -306,5 +304,37 @@
 <script src="libs/slick/slick.min.js" defer></script>
 <!-- main -->
 <script src="js/common.js" defer></script>
+<!-- google map -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCkjzCPUQQfxnxvKOpqDtvrsM55ctPuc4&callback=initMap"></script>
+<script>
+   function  initMap() {
+
+       var element = document.getElementById('map');
+       var options = {
+           zoom:14,
+           center: {lat:52.428000, lng:16.961921},
+           scrollwheel:false
+       };
+
+       var myMap = new google.maps.Map(element, options);
+
+       function addMarker(coordinates) {
+           var marker = new google.maps.Marker({
+               position:coordinates,
+               map: myMap,
+               icon:'img/icon.png'
+           });
+       }
+
+       addMarker({lat:52.426901, lng:16.937276});
+
+       myGeoObject = new ymaps.GeoObject({
+           geometry: {
+               type: "Point",
+               coordinates: [52.426901, 16.937276]
+           }
+       });
+   }
+</script>
 </body>
 </html>
