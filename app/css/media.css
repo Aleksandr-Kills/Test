@@ -230,6 +230,9 @@
     #content .part-one .sidebar .block-two .three {
         margin-left:17%;
     }
+    #footer nav li {
+        padding-left: 15px;
+    }
 }
 
 @media only screen and (min-width : 768px) and (max-width: 991px) {
