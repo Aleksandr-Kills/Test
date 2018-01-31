@@ -1,11 +1,4 @@
 /*==========  Desktop First Method  ==========*/
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1199px) {
-
-}
-
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
     @-moz-document url-prefix() {
@@ -191,6 +184,14 @@
     #content .part-one .sidebar .block-two .three {
         margin-left:3%;
     }
+    #footer nav {
+        text-align: center;
+        padding-right: 0;
+    }
+    #footer h1 {
+        text-align: center;
+        padding-left: 0;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -231,11 +232,6 @@
     }
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
-
 @media only screen and (min-width : 768px) and (max-width: 991px) {
     #header .part-two .comments .block {
         width: 145px;
@@ -252,22 +248,6 @@
     #header .part-two .comments .block .message {
         margin-left: 45px;
     }
-
-}
-
-@media only screen and (min-width : 992px) and (max-width: 1199px) {
-
-}
-
-/*------ Mobile First Method ------*/
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
 }
 
 /* Small Devices, Tablets */
@@ -302,10 +282,4 @@
     #content .part-one .sidebar .col-xs-12.col-sm-4.col-md-12 {
         padding: 0;
     }
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
 }

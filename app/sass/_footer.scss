@@ -1,0 +1,43 @@
+/* footer */
+#footer {
+  min-height: 76px;
+  padding-left: 14px;
+  padding-right: 14px;
+  h1 {
+    padding: 11px 0 0 5px;
+    font: 1.375em "League Gothic", sans-serif;
+    color: #076e9f;
+    span {
+      color: #22aaec;
+    }
+  }
+    nav {
+      padding: 9px 5px 0 0;
+      text-align: right;
+      li {
+        padding-left:21px;
+        display: inline-block;
+        font: 0.625em "Arial";
+        a {
+          text-decoration: none;
+          color: #707070;
+        }
+        a:hover {
+          color: #90d4f5;
+        }
+      }
+      li:first-child {
+        padding-left: 0;
+      }
+    }
+    .div {
+      margin-top: 7px;
+      border-top: 1px dotted #d5d5d5;
+      h2 {
+        padding: 12px 0 10px 0;
+        text-align: center;
+        font: 0.625em "Arial";
+        color: #787878;
+      }
+    }
+}
