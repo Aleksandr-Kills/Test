@@ -483,7 +483,7 @@ body {
       border-top: 2px solid rgba(0, 0, 0, 0.25);
       border-bottom: 2px solid rgba(0, 0, 0, 0.25); }
 
-/*hack for moz */
+/* hack for moz */
 @-moz-document url-prefix() {
   #content .part-one .main_block .block_one .p_one {
     letter-spacing: -0.2px; }
@@ -516,4 +516,6 @@ body {
     top: 1px;
     right: 6px; }
   ::i-block-chrome, #content .part-one .sidebar .block-three .stats .diff {
-    right: 9px; } }
+    right: 9px; }
+  ::i-block-chrome, #content .part-one .sidebar .block-one p {
+    font-size: 0.7em; } }
